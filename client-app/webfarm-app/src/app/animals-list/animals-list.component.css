@@ -1,0 +1,38 @@
+ul {
+    padding-left: 10px;
+}
+
+li {
+    list-style: none;
+    background-color: #d4e1ff;
+    margin: 2px 0 2px 0;
+    height: 29px;
+    line-height: 26px;
+    padding-left: 6px;
+    width: 320px;
+    font-size: 18px;
+}
+
+li:hover {
+    background-color: #dfe8fc;
+}
+
+li > button {
+    border: none;
+    background: none;
+    float: right;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 0;
+    display: none;
+}
+
+
+li:hover > button {
+    display: block;
+}
+
+.error {
+    background-color: #ff9696;
+    padding: 25px;
+}

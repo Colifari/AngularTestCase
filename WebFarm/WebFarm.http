@@ -1,0 +1,16 @@
+@WebFarm_HostAddress = http://localhost:5003
+
+GET {{WebFarm_HostAddress}}/api/animals
+Accept: application/json
+
+###
+
+PUT {{WebFarm_HostAddress}}/api/animals?name=cow
+Accept: application/json
+
+###
+
+DELETE {{WebFarm_HostAddress}}/api/animals?name=cow
+Accept: application/json
+
+###

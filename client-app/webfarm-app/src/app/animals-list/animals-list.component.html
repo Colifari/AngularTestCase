@@ -1,0 +1,14 @@
+<h2>Animals</h2>
+
+<div *ngIf="isError" class="error">
+    {{errorText}}
+</div>
+
+<ul>
+    <li *ngFor="let animal of animals | async">
+        {{animal}} <button type="button" (click)="delete(animal)"><span class="material-icons">delete</span></button>
+    </li>
+</ul>
+
+
+
