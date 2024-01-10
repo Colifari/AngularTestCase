@@ -1,4 +1,4 @@
-# AreasCounter
+# Angular test case
 
 * Simple web api
 * In memory storage
